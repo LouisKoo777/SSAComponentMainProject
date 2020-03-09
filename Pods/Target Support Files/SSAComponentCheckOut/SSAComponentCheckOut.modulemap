@@ -1,0 +1,6 @@
+framework module SSAComponentCheckOut {
+  umbrella header "SSAComponentCheckOut-umbrella.h"
+
+  export *
+  module * { export * }
+}

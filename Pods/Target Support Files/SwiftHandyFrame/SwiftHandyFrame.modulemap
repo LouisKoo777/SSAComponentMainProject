@@ -1,0 +1,6 @@
+framework module SwiftHandyFrame {
+  umbrella header "SwiftHandyFrame-umbrella.h"
+
+  export *
+  module * { export * }
+}

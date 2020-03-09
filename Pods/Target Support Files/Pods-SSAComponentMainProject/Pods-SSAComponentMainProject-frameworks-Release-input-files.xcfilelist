@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-SSAComponentMainProject/Pods-SSAComponentMainProject-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
+${BUILT_PRODUCTS_DIR}/SSAComponentCheckOut/SSAComponentCheckOut.framework
+${BUILT_PRODUCTS_DIR}/SSAComponentCheckOutCategory/SSAComponentCheckOutCategory.framework
+${BUILT_PRODUCTS_DIR}/SSAComponentGoodsDetail/SSAComponentGoodsDetail.framework
+${BUILT_PRODUCTS_DIR}/SSAComponentGoodsDetailCategory/SSAComponentGoodsDetailCategory.framework
+${BUILT_PRODUCTS_DIR}/SwiftHandyFrame/SwiftHandyFrame.framework

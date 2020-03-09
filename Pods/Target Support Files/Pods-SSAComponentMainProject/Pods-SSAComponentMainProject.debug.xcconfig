@@ -1,0 +1,12 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/SSAComponentCheckOut" "${PODS_CONFIGURATION_BUILD_DIR}/SSAComponentCheckOutCategory" "${PODS_CONFIGURATION_BUILD_DIR}/SSAComponentGoodsDetail" "${PODS_CONFIGURATION_BUILD_DIR}/SSAComponentGoodsDetailCategory" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftHandyFrame"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator/CTMediator.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SSAComponentCheckOut/SSAComponentCheckOut.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SSAComponentCheckOutCategory/SSAComponentCheckOutCategory.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SSAComponentGoodsDetail/SSAComponentGoodsDetail.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SSAComponentGoodsDetailCategory/SSAComponentGoodsDetailCategory.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftHandyFrame/SwiftHandyFrame.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "CTMediator" -framework "SSAComponentCheckOut" -framework "SSAComponentCheckOutCategory" -framework "SSAComponentGoodsDetail" -framework "SSAComponentGoodsDetailCategory" -framework "SwiftHandyFrame" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

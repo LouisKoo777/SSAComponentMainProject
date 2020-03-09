@@ -1,0 +1,6 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSAComponentCheckOut.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSAComponentCheckOutCategory.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSAComponentGoodsDetail.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSAComponentGoodsDetailCategory.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHandyFrame.framework

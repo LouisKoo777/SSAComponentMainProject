@@ -1,0 +1,39 @@
+PODS:
+  - CTMediator (25)
+  - SSAComponentCheckOut (0.0.3)
+  - SSAComponentCheckOutCategory (0.0.2):
+    - CTMediator
+  - SSAComponentGoodsDetail (0.0.4):
+    - SSAComponentCheckOutCategory
+  - SSAComponentGoodsDetailCategory (0.0.3):
+    - CTMediator
+  - SwiftHandyFrame (5)
+
+DEPENDENCIES:
+  - SSAComponentCheckOut
+  - SSAComponentCheckOutCategory
+  - SSAComponentGoodsDetail
+  - SSAComponentGoodsDetailCategory
+  - SwiftHandyFrame
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
+    - SwiftHandyFrame
+  https://github.com/LouisKoo777/SSATestPrivatePodsSpecs.git:
+    - SSAComponentCheckOut
+    - SSAComponentCheckOutCategory
+    - SSAComponentGoodsDetail
+    - SSAComponentGoodsDetailCategory
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  SSAComponentCheckOut: bac32be3e94a976b9cced84f3f542902d47c285a
+  SSAComponentCheckOutCategory: a7b42cb083cecae7663b479dc4192794737c3c9f
+  SSAComponentGoodsDetail: 71306f0a16b08c16d591c03f1b229664471a09a0
+  SSAComponentGoodsDetailCategory: 525b3f4f4759295287d0c4c6bd9158cfc81b541d
+  SwiftHandyFrame: d2c11d3774d73a103cd6287c0933f97ab459d6ff
+
+PODFILE CHECKSUM: 56546eb69986c493d476dfec4a059c76e9e11dfb
+
+COCOAPODS: 1.9.0

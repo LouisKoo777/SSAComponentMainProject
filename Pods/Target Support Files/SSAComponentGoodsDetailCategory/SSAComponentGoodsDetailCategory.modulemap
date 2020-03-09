@@ -1,0 +1,6 @@
+framework module SSAComponentGoodsDetailCategory {
+  umbrella header "SSAComponentGoodsDetailCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}
